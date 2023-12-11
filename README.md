@@ -31,6 +31,7 @@ The application documentation of <a href="https://detectron2.readthedocs.io/en/l
 
 -   Pytorch
 -   Detectron2
+-   YOLOv8
 -   numpy
 -   pandas
 -   opencv-python
