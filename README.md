@@ -58,7 +58,7 @@ In a comparative experiment with this dataset, I evaluated both Detectron2 and Y
 
 ### How to use the source code
 
--   Fork/clone this repository (https://github.com/LeoUtas/Mitochondria_segmentation_flask_YOLOv8.git)
+-   Fork/clone this repository (https://github.com/LeoUtas/Mitochondria_segmentation_flask_2models.git)
 -   Get the docker container ready
 
     -   Run docker build (name the app whatever you want on your local machine, and please note that it might take a while for installing all the required dependencies to your local docker image)
