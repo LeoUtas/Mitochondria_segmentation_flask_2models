@@ -6,6 +6,7 @@
     </li>
     <li><a href="#demo">Demo</a></li>
     <li><a href="#technical-tools">Technical Tools</a></li>
+    <li><a href="#data-source">Data source</a></li>
     <li><a href="#how-to-use-the-source-code">How to use the source code</a></li>
     <li><a href="#reference">Reference</a></li>
   </ol>
@@ -66,6 +67,10 @@ The application documentation of <a href="https://detectron2.readthedocs.io/en/l
 -   HTML
 -   CSS (Bootstrap)
 -   Docker
+
+### Data source
+
+This project utilizes an electron microscopy image dataset from the CA1 area of the hippocampus, annotated for mitochondria by highly trained researchers. For more information and access to the dataset, visit the <a href="https://www.epfl.ch/labs/cvlab/data/data-em/"> Electron Microscopy Dataset</a>.
 
 ### How to use the source code
 
