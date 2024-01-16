@@ -6,8 +6,6 @@
     </li>
     <li><a href="#demo">Demo</a></li>
     <li><a href="#technical-tools">Technical Tools</a></li>
-    <li><a href="#data-source">Data source</a></li>
-    <li><a href="#the-design">The design</a></li>
     <li><a href="#how-to-use-the-source-code">How to use the source code</a></li>
     <li><a href="#reference">Reference</a></li>
   </ol>
@@ -42,7 +40,7 @@
         </li>        
     </ul>
 
-This repository hosts the source code for a web application using Detectron2 <a href="https://mito-app-651cbfda9bde.herokuapp.com/">(visit the live demo)</a>.
+This repository hosts the source code for a web application using Detectron2 <a href="https://mito-app-651cbfda9bde.herokuapp.com/">(visit the live demo)</a> and YOLOv8 for better comparison.
 
 ### Demo
 
@@ -68,20 +66,6 @@ The application documentation of <a href="https://detectron2.readthedocs.io/en/l
 -   HTML
 -   CSS (Bootstrap)
 -   Docker
-
-### Data source
-
-This repository hosts the source code for a web application designed for instance segmentation tasks. It detects and segments mitochondria in microscopy images. Two architectures, Detectron2 <a href="https://github.com/facebookresearch/detectron2/blob/main/README.md"> (Wu et al., 2019) </a> and You Only Look Once (i.e., <a href="https://github.com/ultralytics/ultralytics"> YOLOv8 </a>) were utilized in this task for better model comparison.
-
-### The design
-
-I tried three approaches for this task:
-
--   Using YOLOv8 architecture, <a href="https://github.com/LeoUtas/Mitochondria_segmentation_flask_YOLOv8.git">(source code)</a>;
--   Using Detectron2 architecture, <a href="https://github.com/LeoUtas/Mitochondria_segmentation_flask_detectron2.git">(source code)</a>;
--   Using a combination of the YOLOv8 and Detectron2 architectures, <a href="https://github.com/LeoUtas/Mitochondria_segmentation_flask_2models.git">(source code)</a> (This repository).
-
-In a comparative experiment with this dataset, I evaluated both Detectron2 and YOLOv8. The results indicated that, for this particular task, Detectron2 demonstrated superior performance over YOLOv8 (see <a href="https://mito-app-651cbfda9bde.herokuapp.com/"> comparison images)</a>. However, in some cases, YOLOv8 performed better on the task of object detection.
 
 ### How to use the source code
 
